@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter.ttf') format('truetype'),
+    url('../fonts/Inter.woff') format("woff");
+}
+
+:root{
+    --indigo: #7d49d1;
+    --indigo-hover: #7243be;
+    --font: #27187e;
+}
+
+*{
+    font-family: "Inter";
+}
+
+.btn-indigo{
+    background-color: var(--indigo);
+    color: whitesmoke;
+    transition-duration: 200ms;
+}
+
+.btn-indigo:hover{
+    background-color: var(--indigo-hover);
+    color: white
+}
